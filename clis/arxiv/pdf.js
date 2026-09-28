@@ -14,6 +14,7 @@ import { normalizeArxivId } from './utils.js';
 
 cli({
     site: 'arxiv',
+    domain: 'arxiv.org',
     name: 'pdf',
     access: 'read',
     description: 'Download an arXiv paper PDF (arxiv.org/pdf/<id>)',

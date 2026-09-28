@@ -18,6 +18,7 @@ import {
 
 cli({
     site: 'arxiv',
+    domain: 'arxiv.org',
     name: 'since',
     access: 'read',
     description: 'List arXiv submissions in a category within a date window (default: last 7 days, UTC)',

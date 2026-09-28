@@ -11,6 +11,7 @@ import { fetchArxivBibtex, normalizeArxivId, parseBibtexEntry } from './utils.js
 
 cli({
     site: 'arxiv',
+    domain: 'arxiv.org',
     name: 'bibtex',
     access: 'read',
     description: 'Get the BibTeX citation record for an arXiv paper',
